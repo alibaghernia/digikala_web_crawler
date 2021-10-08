@@ -14,7 +14,7 @@ def normalize_str(text) -> str:
     return text
 
 
-class ProductSpider(scrapy.Spider):
+class Product(scrapy.Spider):
     name = 'product'
     allowed_domains = ['digikala.com']
     start_urls = ['http://digikala.com/']
